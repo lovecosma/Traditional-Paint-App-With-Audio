@@ -48,7 +48,7 @@ class Pallette {
     //Create slider for stroke weight
 
     this.slider = createSlider(1, 25, 3, 1);
-    this.slider.position(0, 275)
+    this.slider.position(0, 260)
     this.slider.size(75, 25)
 
   }

@@ -63,8 +63,8 @@ class Pallette {
 
     // Line Thickness
 
-    this.slider.mousePressed(function(e){ not_adjusting_slider = false })
-    this.slider.mouseReleased(function(e){ not_adjusting_slider = true; line_thickness = e.target.value })
+    this.slider.mousePressed(function(e){ not_using_menu = false })
+    this.slider.mouseReleased(function(e){ not_using_menu = true; line_thickness = e.target.value })
 
 
     //Save and clear button
